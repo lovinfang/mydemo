@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>开放能力平台测试-交易创建结果消息</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+    <script type="text/javascript" src="trade_create_event.js"></script>
+    <script type="text/javascript" src="../../common.js"></script>
+</head>
+<style>
+    .main{
+        text-align: center; /*让div内部文字居中*/
+        width: 1000px;
+        margin: auto;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+<div>
+    <div>
+        <div class="main" id="main" style="height: 80px;">
+            <div style="text-align: center;width:100%;height:50%">
+                <h1>自保理-交易创建结果消息</h1>
+            </div>
+        </div>
+
+        <div>
+            <div class="main",id="inpuInfo">
+                <div id="createJsonDiv" style="width:100%;float: left">
+                    <textarea id="jsonInfo" onfocus="createJsonOnfocus()" onblur="createJsonOnblur()" style="width:100%;height:150px">请输入交易创建json字符串</textarea>
+                </div>
+            </div>
+        </div>
+        <div  class="main" style="height:150px"></div>
+
+        <div class="main" id="content">
+            <table border="1px;" cellspacing="0px;" cellpadding="0px;" width="100%">
+                <thead>
+                <tr>
+                    <td width="15%">请求参数key</td>
+                    <td width="15%">请求参数value</td>
+                    <td>请求参数说明</td>
+                </tr>
+                </thead>
+                <tbody id="contentBody"></tbody>
+            </table>
+        </div>
+        <div id="jsonContent" class="main" style="display: none">
+            <textarea name="txt" warp="virtual" rows="15" id="jsonTxt" value="输出JSON字符串:"  style="width:100%;overflow: scroll;"></textarea>
+        </div>
+
+        <div id="jsonStyleBtn" class="main" style="display: none">
+            <button type="button" id="jsonStyle" style="float: left">json格式化</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
