@@ -20,7 +20,6 @@ public class SingleDcl {
             synchronized (SingleDcl.class){
                 if(single==null){
                     single = new SingleDcl();
-                    System.out.println("----------------");
                 }
             }
         }
