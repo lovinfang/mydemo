@@ -1,11 +1,7 @@
 package com.demo.deadlock.bank;
 
-
-import com.dongnaoedu.deadlock.bank.serivice.ITransfer;
-import com.dongnaoedu.deadlock.bank.serivice.NormalTransfer;
-import com.dongnaoedu.deadlock.bank.serivice.SafeTransfer;
-import com.dongnaoedu.deadlock.bank.serivice.TryLockTransfer;
-
+import com.demo.deadlock.bank.service.ITransfer;
+import com.demo.deadlock.bank.service.TryLockTransfer;
 
 /**
  * 动脑学院-Mark老师
