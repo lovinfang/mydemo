@@ -1,11 +1,9 @@
 package com.demo.deadlock.bank;
 
-
 import com.demo.deadlock.bank.service.ITransfer;
 import com.demo.deadlock.bank.service.NormalTransfer;
 import com.demo.deadlock.bank.service.SafeTransfer;
 import com.demo.deadlock.bank.service.TryLockTransfer;
-
 
 /**
  * 动脑学院-Mark老师

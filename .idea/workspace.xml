@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b09348-bbf4-4ab8-adf9-f366ef01e561" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/demo/extend/Animal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/demo/extend/Dog.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/demo/extend/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/FlagCancel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/FlagCancel_two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/FlagCancel_unsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/SafeInterruptDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/SleepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/ThreadMXBeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/ThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/interrupt/BlockInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/threadDemo/interrupt/SafeInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/util/SleepUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mydemo/com/demo/completionService/CompletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mydemo/com/demo/completionService/CompletionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/demo/deadlock/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/deadlock/bank/Bank.java" afterDir="false" />
@@ -221,7 +231,7 @@
       <workItem from="1530326053438" duration="2454000" />
       <workItem from="1530340966023" duration="4992000" />
       <workItem from="1530933627827" duration="2267000" />
-      <workItem from="1575547942718" duration="541000" />
+      <workItem from="1575547942718" duration="1369000" />
     </task>
     <servers />
   </component>
