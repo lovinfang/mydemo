@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b09348-bbf4-4ab8-adf9-f366ef01e561" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/collections/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/staticDemo/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/staticDemo/StaticAndNonStaticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/collections/ArraysStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/fanxing/FanxingMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/math/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/math/IntegerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,29 +27,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>put</find>
-      <find>remove</find>
-      <find>add</find>
-      <find>mills</find>
-      <find>subContentBody</find>
-      <find>确认</find>
-      <find>jsonExtData</find>
-      <find>subContent</find>
-      <find>contentBody</find>
-      <find>createTable</find>
-      <find>onBtnJsonClick</find>
-      <find>onBtnClick</find>
-      <find>extContent</find>
-      <find>addExDataBtn</find>
-      <find>btnConfirm</find>
-      <find>ext_data</find>
-      <find>ext_data_btn</find>
-      <find>extBody</find>
-      <find>createJsonOnfocus</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraysDemo">
+  <component name="RunManager" selected="Application.FanxingMin">
     <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.collections.ArraysDemo" />
       <module name="mydemo" />
@@ -90,6 +68,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.demo.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigDecimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.math.BigDecimalDemo" />
+      <module name="mydemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,13 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.staticDemo.Foo" />
+    <configuration name="FanxingMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.fanxing.FanxingMin" />
       <module name="mydemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.staticDemo.*" />
+          <option name="PATTERN" value="com.demo.fanxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,27 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticAndNonStaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.staticDemo.StaticAndNonStaticDemo" />
+    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.math.IntegerDemo" />
       <module name="mydemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.staticDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.staticDemo.StaticDemo" />
-      <module name="mydemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.staticDemo.*" />
+          <option name="PATTERN" value="com.demo.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StaticDemo" />
-      <item itemvalue="Application.Foo" />
-      <item itemvalue="Application.StaticAndNonStaticDemo" />
       <item itemvalue="Application.CollectionsTest" />
       <item itemvalue="Application.ArraysDemo" />
+      <item itemvalue="Application.IntegerDemo" />
+      <item itemvalue="Application.BigDecimalDemo" />
+      <item itemvalue="Application.FanxingMin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FanxingMin" />
         <item itemvalue="Application.ArraysDemo" />
+        <item itemvalue="Application.BigDecimalDemo" />
+        <item itemvalue="Application.IntegerDemo" />
         <item itemvalue="Application.CollectionsTest" />
-        <item itemvalue="Application.StaticAndNonStaticDemo" />
-        <item itemvalue="Application.Foo" />
-        <item itemvalue="Application.StaticDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +201,8 @@
       <workItem from="1575864505413" duration="1112000" />
       <workItem from="1575866413291" duration="1120000" />
       <workItem from="1576118828504" duration="2669000" />
-      <workItem from="1576203250836" duration="12574000" />
+      <workItem from="1576203250836" duration="13187000" />
+      <workItem from="1576287350544" duration="6299000" />
     </task>
     <servers />
   </component>
@@ -269,6 +248,11 @@
           <url>file://$PROJECT_DIR$/src/com/demo/concurrent/demo/forkJoinPool/ForkJoinPoolActionExample.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

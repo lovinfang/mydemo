@@ -1,11 +1,13 @@
 package com.demo.collections;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArraysDemo {
 
-    public static void main(String[] args) {
+    public static void test(){
         // *************排序 sort****************
         int a[] = { 1, 3, 2, 7, 6, 5, 4, 9 };
         // sort(int[] a)方法按照数字顺序排列指定的数组。
@@ -129,6 +131,54 @@ public class ArraysDemo {
         }
         // 换行
         System.out.println();
+    }
 
+    /**
+     * Arrays.asList将数组转换成集合后，底层还是数组，不能使用集合相关的方法，比如 add/remove/clear会抛出异常
+     * Arrays.asList体现的是适配器模式，只是转换接口，后台的数组仍是数组
+     */
+    public static void test2(){
+        String[] str = new String[] {"you","wu"};
+        List list = Arrays.asList(str);
+        list.add("lovin");  // 异常
+    }
+
+    public static void test3(){
+        int[] myArray = { 1, 2, 3 };
+        List myList = Arrays.asList(myArray);
+        System.out.println(myList.size());//1
+        System.out.println(myList.get(0));//数组地址值
+//        System.out.println(myList.get(1));//报错：ArrayIndexOutOfBoundsException
+        int [] array=(int[]) myList.get(0);
+        System.out.println(array[0]);//1
+        System.out.println(array[1]);//2
+    }
+
+    /**
+     * 不要在遍历集合的时候对集合进行删除，但是使用Iterator就可以进行遍历删除
+     */
+    public static void test4(){
+        List<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("2");
+        System.out.println(list);
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()){
+            String item = iterator.next();
+            if ("2".equals(item)){
+                iterator.remove();
+            }
+        }
+        System.out.println(list);
+    }
+
+    public static void main(String[] args) {
+        ArraysDemo.test();
+        System.out.println("-------test2()--------");
+//        ArraysDemo.test2();
+        System.out.println("-------test3()--------");
+        ArraysDemo.test3();
+        System.out.println("-------test4()--------");
+        ArraysDemo.test4();
     }
 }
