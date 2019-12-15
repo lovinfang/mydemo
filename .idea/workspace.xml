@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b09348-bbf4-4ab8-adf9-f366ef01e561" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/collections/ArraysStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/fanxing/FanxingMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/math/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/math/IntegerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/collections/ArraysDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/collections/ArraysStackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/collections/CollectionsTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +200,8 @@
       <workItem from="1575866413291" duration="1120000" />
       <workItem from="1576118828504" duration="2669000" />
       <workItem from="1576203250836" duration="13187000" />
-      <workItem from="1576287350544" duration="6299000" />
+      <workItem from="1576287350544" duration="7823000" />
+      <workItem from="1576377497627" duration="1451000" />
     </task>
     <servers />
   </component>
